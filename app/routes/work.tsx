@@ -2,11 +2,10 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Chris Butera - Lead Front End Engineer" },
+    { title: "Chris Butera - Portfolio" },
     {
       name: "description",
-      content:
-        "Full Stack Developer with 18+ years of experience, specializing in front-end development and leading new project initiatives from concept through implementation.",
+      content: "Chris Butera Online Portfolio and Work Summary",
     },
   ];
 };
@@ -14,7 +13,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div className="flex h-screen items-center justify-center">
-      Home page content goes here...
+      Work content goes here!
     </div>
   );
 }

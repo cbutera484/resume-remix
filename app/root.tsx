@@ -5,6 +5,8 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import { Nav } from "./components/nav";
+
 import type { LinksFunction } from "@remix-run/node";
 
 import "./tailwind.css";
@@ -31,10 +33,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body>
-        {children}
-        <ScrollRestoration />
-        <Scripts />
+      <body className="bg-white dark:bg-slate-800">
+        <div className="px-5vw py-9 lg:py-12">
+          <Nav />
+          {children}
+          <ScrollRestoration />
+          <Scripts />
+        </div>
       </body>
     </html>
   );
