@@ -33,8 +33,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body className="bg-white dark:bg-slate-800">
-        <div className="px-5vw py-9 lg:py-12">
+      <body className="bg-white dark:bg-slate-800 min-h-screen">
+        <div className="max-w-7xl  py-7 lg:py-1o mx-auto">
           <Nav />
           {children}
           <ScrollRestoration />

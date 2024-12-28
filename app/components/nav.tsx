@@ -17,7 +17,7 @@ function NavLink({ to, ...rest }: { to: string }) {
 
 export function Nav() {
   return (
-    <nav className="flex mx-auto max-w-7xl items-center justify-between">
+    <nav className="flex mx-auto max-w-7xl items-center justify-between mb-10">
       <Link
         prefetch="intent"
         to="/"
