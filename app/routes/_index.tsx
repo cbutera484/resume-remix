@@ -17,10 +17,22 @@ export const meta: MetaFunction = () => {
   ];
 };
 
+const TOOLSET = [
+  "React",
+  "Vue",
+  "Svelte",
+  "Node",
+  "HTML5/CSS3",
+  "Vite",
+  "Webpack",
+  "PHP (Laravel)",
+  "Joomla, Wordpress, and Drupal",
+];
+
 export default function Index() {
   return (
     <div className="max-w-5xl mx-auto text-xl">
-      <h2 className="mx-auto text-center text-5xl">
+      <h2 className="mx-auto text-center text-4xl">
         Senior Full Stack Engineer
       </h2>
       <img
@@ -28,23 +40,20 @@ export default function Index() {
         alt="Chris Butera"
         className="w-48 h-48 mx-auto rounded-full my-16"
       />
+
       <p>
-        Full Stack Engineer specializingin front-end technologies based in New
+        Full Stack Engineer specializing in front-end technologies based in New
         York with almost 20 years professional experience building highly
         scalable, award winning websites.
       </p>
 
       <h3>My current toolset includes:</h3>
-      <ul className="list-disc ml-8  pl-4">
-        <li className="mt-4">React</li>
-        <li className="mt-4">Vue</li>
-        <li className="mt-4">Svelte</li>
-        <li className="mt-4">Node</li>
-        <li className="mt-4">HTML5/CSS3</li>
-        <li className="mt-4">Vite</li>
-        <li className="mt-4">Webpack</li>
-        <li className="mt-4">PHP (Laravel)</li>
-        <li className="mt-4">Joomla, Wordpress, and Drupal</li>
+      <ul className="list-disc ml-8 pl-4">
+        {TOOLSET.map((tool) => (
+          <li className="mt-4" key={tool}>
+            {tool}
+          </li>
+        ))}
       </ul>
 
       <div className="logos flex gap-16 items-center justify-between my-16 flex-wrap">
