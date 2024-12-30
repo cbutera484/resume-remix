@@ -8,7 +8,7 @@ import js from "../assets/images/js.png";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Chris Butera - Lead Front End Engineer" },
+    { title: "Chris Butera - Senior Full Stack Engineer" },
     {
       name: "description",
       content:
@@ -47,7 +47,7 @@ export default function Index() {
         scalable, award winning websites.
       </p>
 
-      <h3>My current toolset includes:</h3>
+      <h3 className="mt-12">My current toolset includes:</h3>
       <ul className="list-disc ml-8 pl-4">
         {TOOLSET.map((tool) => (
           <li className="mt-4" key={tool}>

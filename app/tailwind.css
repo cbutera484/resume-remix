@@ -1,37 +1,5 @@
+@import "./assets/css/globals.scss";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
-
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
-}
-
-h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  margin: 1rem 0;
-}
-
-h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 1rem 0;
-}
-h4 {
-  font-weight: bold;
-  font-size: 1.25rem;
-}
-
-h5 {
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-p {
-  margin-top: 1rem;
-}
