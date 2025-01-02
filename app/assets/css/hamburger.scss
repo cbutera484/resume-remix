@@ -7,6 +7,10 @@ $scale: 1;
   box-sizing: border-box;
 }
 
+.hamburger-container {
+  z-index: 101;
+}
+
 h4 {
   font-family: arial, helvetica, serif;
   color: var(--primary-color);

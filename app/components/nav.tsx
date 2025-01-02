@@ -1,5 +1,8 @@
 import { Link } from "@remix-run/react";
+import React, { useRef } from "react";
+import "../assets/css/nav.scss";
 import { Hamburger } from "./hamburger";
+
 const LINKS = [
   { name: "About", to: "/about" },
   { name: "Resume", to: "/resume" },
@@ -16,10 +19,44 @@ function NavLink({ to, ...rest }: { to: string }) {
 }
 
 export function Nav() {
+  const [isOpen, setIsOpen] = React.useState(false);
+  const menu = useRef<HTMLUListElement>(null);
+
+  const handleClick = () => {
+    if (!isOpen) {
+      open();
+    } else {
+      close();
+    }
+  };
+
+  function open() {
+    if (menu.current) {
+      menu.current.classList.add("open");
+      window.setTimeout(() => {
+        menu.current && menu.current.classList.add("opacity-100");
+      }, 100);
+    }
+    setIsOpen(true);
+  }
+  function close() {
+    if (menu.current) {
+      menu.current.classList.remove("opacity-100");
+      menu.current.addEventListener(
+        "transitionend",
+        () => {
+          menu.current && menu.current.classList.remove("open");
+        },
+        { once: true }
+      );
+    }
+    setIsOpen(false);
+  }
+
   return (
     <nav className="flex mx-auto max-w-7xl items-center justify-between mb-10">
       <div className="hamburger-container absolute top-0 right-0 mt-4 mr-4 lg:hidden">
-        <Hamburger />
+        <Hamburger isOpen={isOpen} onHamburgerClick={handleClick} />
       </div>
       <Link
         prefetch="intent"
@@ -28,7 +65,10 @@ export function Nav() {
       >
         <h1>Chris Butera</h1>
       </Link>
-      <ul className="hidden space-x-4 px-10 lg:flex flex-row opacity-0 lg:opacity-100 mt-2 text-sm xl:text-base">
+      <ul
+        ref={menu}
+        className="hidden text-center lg:space-x-4 lg:px-10 lg:flex flex-row opacity-0 lg:opacity-100 lg:mt-2 text-sm xl:text-base"
+      >
         {LINKS.map((link) => (
           <NavLink key={link.to} to={link.to}>
             {link.name}

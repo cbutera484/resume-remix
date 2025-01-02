@@ -34,8 +34,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body className="bg-white dark:bg-slate-800 min-h-screen">
+        <Nav />
         <div className="max-w-full px-7 py-8 lg:py-10 mx-auto">
-          <Nav />
           {children}
           <ScrollRestoration />
           <Scripts />
