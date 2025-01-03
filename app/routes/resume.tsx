@@ -1,4 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
+import ResumeItems from "../data/resume.json";
+
+import ResumeItem from "~/components/resumeItem";
 
 export const meta: MetaFunction = () => {
   return [
@@ -9,8 +12,14 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="flex h-screen items-center justify-center">
-      Resume content goes here!
+    <div className="flex">
+      {ResumeItems.map((item) => (
+        <ResumeItem
+          key={item.title}
+          {...item}
+          location={item.location ?? "N/A"}
+        />
+      ))}
     </div>
   );
 }

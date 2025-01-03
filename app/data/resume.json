@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Publishers Clearing House",
+    "location": "Jericho, NY",
+    "position": "Lead Front-End Engineer",
+    "year": "2013-Present",
+    "description": "Scalable mobile and desktop game websites where millions of users play to win cash and prizes.  Collaborate with marketing and design teams in an Agile environment to develop a fun, engaging user experience while meeting aggressive deadlines.      ",
+    "logo": "pch.jpg",
+    "technology": "Javascript, Vue, Web Components,  Webpack, Vite, Git, ESLint, Prettier, Responsive HTML/CSS, PHP (Laravel), W3C Accessibility Standards, SEO"
+  },
+  {
+    "title": "Curran & Connors",
+    "location": "Hauppague, NY",
+    "position": "Senior Web Developer",
+    "year": "2011-2013",
+    "description": "Developed websites and Online Annual Reports for well known clients such as Lowe's, McCormick, and NYCB featuring complex animations and sophisticated designs.  Built flexible, content manageable websites using Drupal catered to clients needs",
+    "logo": "c&c.png",
+    "technology": "Javascript, PHP, Drupal, jQuery, HTML5/CSS3, SEO"
+  },
+  {
+    "title": "Random House Publishing",
+    "location": "New York, NY",
+    "position": "Web Developer",
+    "year": "2008-2011",
+    "description": "Built e-commerce and marketing websites for the world's largest publisher.  Developed HTML email campaigns and designed Flash banner ads.",
+    "logo": "random-house.png",
+    "technology": "Javascript, PHP, Wordpress, HTML/CSS, MySQL, Flash, SEO"
+  },
+  {
+    "title": "Railex/Andrew and Sons LLC",
+    "location": "Riverhead, NY",
+    "position": "Web Designer/Developer",
+    "year": "2006-2008",
+    "description": "Designed and developed various marketing websites for the company's multiple brands.  Designed and built company's internal website.  ",
+    "logo": "railex.png",
+    "technology": "PHP, Javascript, HTML/CSS, Photoshop, Flash, SEO"
+  },
+  {
+    "title": "Binghamton University - SUNY",
+    "position": "Bachelors in Computer Science",
+    "year": "2002-2006",
+    "description": "",
+    "logo": "binghamton.jpg",
+    "technology": "C++, Java, Assembly, Javascript, HTML, CSS, Algorithms, Network Security, Networking"
+  },
+  {
+    "title": "RapidCars.com",
+    "position": "Webmaster/Owner",
+    "year": "1999-2016",
+    "description": "Hobby site I started in high school featuring high resolution photos, news, and various information on high-end exotic cars such as those from Ferrari, Lamborghini, McLaren, and Porsche.  Received millions of visitors with traffic peaking at 10k users per day.  Built up traffic via SEO, email campaigns, and banner advertising.  Optimized site to earn revenue via advertisements with peak earnings ranging from $1k to $2k per month.  Decided to shutdown in 2016 as the site was no longer able to compete with professional automotive blogs.  ",
+    "logo": "rapidcars.jpg",
+    "technology": "Wordpress, HTML, CSS, PHP"
+  }
+]

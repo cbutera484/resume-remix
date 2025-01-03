@@ -45,7 +45,8 @@ export function Nav() {
     setIsOpen(true);
   }
   function close() {
-    if (menu.current) {
+    //close mobile menu only if open, fixes issues with desktop menu clicks on resize
+    if (menu.current?.classList.contains("open")) {
       menu.current.classList.remove("opacity-100");
       menu.current.addEventListener(
         "transitionend",
