@@ -10,17 +10,22 @@ const LINKS = [
   { name: "Contact", to: "/contact" },
 ];
 
-function NavLink({ to, ...rest }: { to: string }) {
-  return (
-    <li>
-      <Link to={to} {...rest}></Link>
-    </li>
-  );
-}
-
 export function Nav() {
   const [isOpen, setIsOpen] = React.useState(false);
   const menu = useRef<HTMLUListElement>(null);
+
+  function NavLink({ to, ...rest }: { to: string }) {
+    return (
+      <li>
+        <Link
+          onClick={close}
+          onKeyUp={(e) => e.key === "Enter" && close()}
+          to={to}
+          {...rest}
+        ></Link>
+      </li>
+    );
+  }
 
   const handleClick = () => {
     if (!isOpen) {
@@ -55,7 +60,7 @@ export function Nav() {
 
   return (
     <nav className="flex mx-auto max-w-7xl items-center justify-between mb-10">
-      <div className="hamburger-container absolute top-0 right-0 mt-4 mr-4 lg:hidden">
+      <div className="hamburger-container absolute top-0 right-0 mt-2 mr-2 lg:hidden">
         <Hamburger isOpen={isOpen} onHamburgerClick={handleClick} />
       </div>
       <Link
