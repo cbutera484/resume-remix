@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  --primary-color-dark: #fff;
+  --primary-color-light: #000;
+  --link-color: rgb(128 151 0);
+}
+
+html,
+body {
+  @apply bg-white dark:bg-gray-950;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0 0 0;
+
+  @media screen(lg) {
+    font-size: 2rem;
+  }
+}
+
+h3 {
+  @media screen(lg) {
+    font-size: 1.5rem;
+  }
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+h4 {
+  font-weight: bold;
+  font-size: 1rem;
+
+  @media screen(lg) {
+    font-size: 1.25rem;
+  }
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+a {
+  text-decoration: underline;
+}

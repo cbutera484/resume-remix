@@ -1,0 +1,50 @@
+nav {
+  padding: 1.7rem 2rem;
+}
+nav a {
+  text-decoration: none;
+}
+
+a {
+  opacity: 0.8;
+}
+a:hover,
+a.active {
+  opacity: 1;
+}
+
+ul {
+  transition: opacity 0.5s ease-in-out;
+  padding: 0;
+}
+
+@media (max-width: 1024px) {
+  ul.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    @apply bg-white dark:bg-slate-800;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+  }
+  ul.open li {
+    border-bottom: 1px solid var(--primary-color-dark);
+    padding: 2rem 0;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  ul.open li {
+    border-bottom: 1px solid var(--primary-color-light);
+  }
+}
+
+ul li {
+  padding: 0 1rem;
+}
+h2 a {
+  color: var(--primary-color-dark);
+}

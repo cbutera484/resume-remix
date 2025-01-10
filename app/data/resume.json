@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Publishers Clearing House",
+    "location": "Jericho, NY",
+    "position": "Lead Front-End Engineer",
+    "year": "2013-2024",
+    "description": "<p>Led multiple project initiatives from inception to completion, consistently delivering high-quality solutions within tight deadlines. </p><p>Responsible for recruiting and managing direct reports, conducting detailed code reviews, and promoting best practices across development teams using tools such as ESLint and Prettier. </p><p>Organized and facilitated team training sessions on topics such as JavaScript best practices, W3C accessibility, Git branching strategies, and emerging browser features.</p>",
+    "logo": "pch.jpg",
+    "technology": "Javascript, Vue, Svelte, Web Components, Tailwind CSS, Vite, Webpack,  Git, ESLint, Prettier,  PHP, Laravel, W3C Accessibility Standards, SEO"
+  },
+  {
+    "title": "Curran & Connors",
+    "location": "Hauppaugue, NY",
+    "position": "Senior Web Developer",
+    "year": "2011-2013",
+    "description": "<p>Developed marketing websites and online annual reports for well known clients such as Lowe's, McCormick, and New York Community Bank featuring complex animations and sophisticated designs under extremely tight deadlines.</p><p>  Built flexible, content manageable websites using Drupal catered to clients needs</p>",
+    "logo": "c&c.svg",
+    "technology": "JavaScript, PHP, Drupal, jQuery, HTML5/CSS3, SEO"
+  },
+  {
+    "title": "Random House Publishing",
+    "location": "New York, NY",
+    "position": "Web Producer",
+    "year": "2008-2011",
+    "description": "<p>Developed and launched e-commerce and marketing websites for the world's largest book publisher, enhancing online presence and user engagement.</p> <p>Developed HTML email campaigns and designed/built interactive Flash banner ads, driving effective marketing and customer outreach.</p>",
+    "logo": "rh.svg",
+    "technology": "JavaScript, PHP, WordPress, HTML/CSS, MySQL, Flash, SEO"
+  },
+  {
+    "title": "Railex/Andrew and Sons LLC",
+    "location": "Riverhead, NY",
+    "position": "Web Designer/Developer",
+    "year": "2006-2008",
+    "description": "<p>Designed and developed multiple marketing websites for the company's many divisions across the continental U.S., enhancing brand presence and supporting regional campaigns.</p><p>Created and maintained the company’s internal website, streamlining employee onboarding, providing essential company information, and enabling staff to sign up for daily free lunches.</p>",
+    "logo": "railex.png",
+    "technology": "PHP, JavaScript, HTML/CSS, Photoshop, Flash, SEO"
+  },
+  {
+    "title": "Binghamton University",
+    "position": "Bachelor of Science, Computer Science",
+    "year": "2002-2006",
+    "location": "Binghamton, NY",
+    "description": "",
+    "logo": "binghamton.jpg",
+    "technology": "C#, C++, Java, Assembly Language, Operating Systems, Algorithms, Network Security, Networking, JavaScript, HTML, CSS"
+  },
+  {
+    "title": "RapidCars.com",
+    "position": "Founder",
+    "year": "1999-2016",
+    "description": "<p>Founded and managed a high-traffic automotive site, featuring high-resolution photos, news, and in-depth content on exotic car brands such as Ferrari, Lamborghini, McLaren, and Porsche.</p><p>Attracted millions of visitors, peaking at 10,000 daily unique users, through strategic SEO, email campaigns, and banner advertising.</p><p>Successfully monetized the site, generating monthly revenue of $2K–$3K through selling ad space via Google AdSense and other advertising services.</p>",
+
+    "logo": "720s.png",
+    "technology": "Ad Optimization, WordPress, Digital Marketing, Google Analytics, PHP, HTML/CSS, SEO"
+  }
+]
