@@ -6,11 +6,11 @@ nav a {
 }
 
 a {
-  opacity: 0.8;
+  opacity: 1;
 }
 a:hover,
 a.active {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 ul {
