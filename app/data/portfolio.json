@@ -18,7 +18,7 @@
   },
   {
     "title": "PCH Lotto",
-    "description": "Users play lotto cards for a daily drawing to win cash prizes and unlock instant win scratch cards.  Built templates to streamline building of multiple lotto cards with complex animations on a monthly basis.  Implemented many shared and 3rd party systems responsible for user registration, messaging, tracking, and retention     ",
+    "description": "Users play lotto cards for a daily drawing to win cash prizes and unlock instant win scratch cards.  Built templates to streamline building of multiple lotto cards with complex animations on a monthly basis.  ",
     "logo": "lotto.jpg",
     "platforms": "Desktop, Mobile",
     "technology": "Javascript, MVC, Webpack, Gulp, Git, ESLint, Prettier, HTML5/CSS3, PHP (Laravel), SEO",
@@ -26,7 +26,7 @@
   },
   {
     "title": "PCH.com",
-    "description": "Sweepstakes game portal where users are directed to a variety of games and contests to win cash and prizes.  Built a custom MVC js framework that handled gameplay, live drawings, and the overall user flow while making API calls to the backend to handle sending and receiving gameplay data.  Implemented many shared and 3rd party systems responsible for user registration, messaging, tracking, and retention",
+    "description": "Sweepstakes game portal where users are directed to a variety of games and contests to win cash and prizes.  Responsible for accessibility, performance, and SEO improvements to the site to increase organic traffic and user experience.  ",
     "logo": "pchcom.jpg",
     "platforms": "Desktop, Mobile",
     "technology": "Vue, Javascript, Webpack,  ESLint, Prettier, PHP (Laravel), SEO",

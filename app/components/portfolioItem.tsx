@@ -35,7 +35,7 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
       </a>
     </div>
     <div className="portfolio-item-content flex flex-col place-content-center mt-2 lg:mt-0 lg:w-6/12">
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p>{description}</p>
       <p>
         <strong>Platforms:</strong> {platforms}
