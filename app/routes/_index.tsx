@@ -48,7 +48,7 @@ export default function Index() {
       </p>
 
       <h3 className="mt-12">My current toolset includes:</h3>
-      <ul className="list-disc ml-8 pl-4">
+      <ul className="list-disc ml-8 pl-4 text-base md:text-xl">
         {TOOLSET.map((tool) => (
           <li className="mt-4" key={tool}>
             {tool}

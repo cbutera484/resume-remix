@@ -38,18 +38,19 @@ h2 {
 }
 
 h3 {
-  @media screen(lg) {
-    font-size: 1.5rem;
-  }
-  font-size: 1.25rem;
+ 
+  font-size: 1rem;
   font-weight: bold;
   margin: 0.5rem 0;
+  @media screen(md) {
+    font-size: 1.5rem;
+  }
 }
 h4 {
   font-weight: bold;
   font-size: 1rem;
 
-  @media screen(lg) {
+  @media screen(md) {
     font-size: 1.25rem;
   }
 }
