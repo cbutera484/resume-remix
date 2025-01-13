@@ -6,6 +6,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import { Nav } from "./components/nav";
+import { LoadingSpinner } from "./components/loading-spinner";
 
 import type { LinksFunction } from "@remix-run/node";
 
@@ -51,5 +52,5 @@ export default function App() {
 }
 
 export function HydrateFallback() {
-  return <p>Loading...</p>;
+  return <LoadingSpinner></LoadingSpinner>;
 }
