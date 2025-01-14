@@ -45,6 +45,9 @@ ul {
 ul li {
   padding: 0 1rem;
 }
+ul li a {
+  font-size: 1.25rem;
+}
 h2 a {
   color: var(--primary-color-dark);
 }
