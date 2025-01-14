@@ -33,10 +33,13 @@ export default function Index() {
       <h1 className="mx-auto text-center">
         Senior Full-Stack Engineer
       </h1>
+      
       <img
         src={laptopGadgets2}
         alt="Chris Butera"
-        className="md:w-3/4 lg:w-1/2 mx-auto my-4"
+        className="opacity-0 md:w-3/4 lg:w-1/2 mx-auto my-4 aspect-[1040/903]"
+        onLoad={(e) => {e.currentTarget.classList.add('scale-down-fade-in')}}
+
       />
       <div className="hidden md:block">
         <TechLogos />

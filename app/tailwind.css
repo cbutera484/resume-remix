@@ -1,6 +1,11 @@
+@import "../app/assets/css/transitions.scss";
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 :root {
   --font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -63,7 +68,7 @@ h5 {
 p {
   margin-top: 1rem;
   font-size: 1rem;
-  @apply md:text-xl
+  @apply md:text-lg;
 }
 
 a {

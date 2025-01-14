@@ -8,6 +8,8 @@ interface ResumeItemProps {
   description: string;
   logo: string;
   technology: string;
+  logoWidth: number;
+  logoHeight: number;
 }
 
 const ResumeItem: React.FC<ResumeItemProps> = ({
@@ -18,14 +20,18 @@ const ResumeItem: React.FC<ResumeItemProps> = ({
   description,
   logo,
   technology,
+  logoWidth,
+  logoHeight
 }) => {
   return (
     <div className="w-full resume-item place-content-center mx-auto resume-item lg:flex gap-8 mt-12 mb-24 lg:mb-28 ">
       <div className="resume-item-image flex items-center lg:w-6/12 text-center">
         <img
           src={`/images/resume/logos/${logo}`}
+          loading="lazy"
           alt={`${title} logo`}
-          className="resume-item-logo w-2/4 lg:w-80 lg:max-h-80 mx-auto rounded-3xl"
+          className={`opacity-0 resume-item-logo w-2/4 lg:w-80 lg:max-h-80 mx-auto rounded-3xl aspect-[${logoWidth}/${logoHeight}]`}
+          onLoad={(e) => {e.currentTarget.classList.add('scale-down-fade-in')}}
         />
       </div>
       <div className="resume-item-content flex flex-col place-content-center mt-6 lg:mt-0 lg:w-6/12">

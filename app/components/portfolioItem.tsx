@@ -28,14 +28,15 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
         className="opacity-100"
       >
         <img
-          className="border-black border resume-item-logo w-full max-full mx-auto hover:scale-105 transition-transform"
+          className="opacity-0 border-black border resume-item-logo w-full max-full mx-auto hover:scale-105 transition-transform aspect-[590/409]"
           src={`/images/portfolio/${logo}`}
           alt={title}
+          onLoad={(e) => {e.currentTarget.classList.add('scale-down-fade-in')}}
         />
       </a>
     </div>
     <div className="portfolio-item-content flex flex-col place-content-center mt-2 lg:mt-0 lg:w-6/12">
-      <h2>{title}</h2>
+      <h2 className="mt-0">{title}</h2>
       <p>{description}</p>
       <p>
         <strong>Platforms:</strong> {platforms}
