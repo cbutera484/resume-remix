@@ -5,9 +5,9 @@ import { Hamburger } from "./hamburger";
 import { useLocation } from "@remix-run/react";
 
 const LINKS = [
-  // { name: "About", to: "/about" },
   { name: "Resume", to: "/resume" },
   { name: "Portfolio", to: "/portfolio" },
+  { name: "About", to: "/about" },
   // { name: "Contact", to: "/contact" },
 ];
 

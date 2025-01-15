@@ -20,7 +20,7 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
   git,
 }) => (
   <div className="portfolio-item place-content-center mt-14 w-full mx-auto lg:flex gap-24 mb-16 lg:mb-28">
-    <div className="portfolio-item-image flex items-center lg:w-6/12 text-center">
+    <div className="portfolio-item-image flex items-center md:w-3/4 lg:w-6/12 text-center mx-auto">
       <a
         href={url}
         target="_blank"
@@ -31,7 +31,9 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
           className="opacity-0 border-black border resume-item-logo w-full max-full mx-auto hover:scale-105 transition-transform aspect-[590/409]"
           src={`/images/portfolio/${logo}`}
           alt={title}
-          onLoad={(e) => {e.currentTarget.classList.add('scale-down-fade-in')}}
+          onLoad={(e) => {
+            e.currentTarget.classList.add("scale-down-fade-in");
+          }}
         />
       </a>
     </div>

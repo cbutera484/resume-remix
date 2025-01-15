@@ -21,7 +21,7 @@ const ResumeItem: React.FC<ResumeItemProps> = ({
   logo,
   technology,
   logoWidth,
-  logoHeight
+  logoHeight,
 }) => {
   return (
     <div className="w-full resume-item place-content-center mx-auto resume-item lg:flex gap-8 mt-12 mb-24 lg:mb-28 ">
@@ -30,8 +30,10 @@ const ResumeItem: React.FC<ResumeItemProps> = ({
           src={`/images/resume/logos/${logo}`}
           loading="lazy"
           alt={`${title} logo`}
-          className={`opacity-0 resume-item-logo w-2/4 lg:w-80 lg:max-h-80 mx-auto rounded-3xl aspect-[${logoWidth}/${logoHeight}]`}
-          onLoad={(e) => {e.currentTarget.classList.add('scale-down-fade-in')}}
+          className={`opacity-0 resume-item-logo w-1/3 lg:w-80 lg:max-h-80 mx-auto rounded-3xl aspect-[${logoWidth}/${logoHeight}]`}
+          onLoad={(e) => {
+            e.currentTarget.classList.add("scale-down-fade-in");
+          }}
         />
       </div>
       <div className="resume-item-content flex flex-col place-content-center mt-6 lg:mt-0 lg:w-6/12">
@@ -42,9 +44,7 @@ const ResumeItem: React.FC<ResumeItemProps> = ({
         <div dangerouslySetInnerHTML={{ __html: description }} />
         <p className="text-lg">
           <strong>Skills: </strong>
-          <strong> 
-          {technology}
-          </strong>
+          <strong>{technology}</strong>
         </p>
       </div>
     </div>
