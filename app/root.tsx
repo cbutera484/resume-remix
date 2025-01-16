@@ -35,7 +35,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body className=" bg-white dark:bg-slate-800">
+      <body>
         <Nav />
         <div className="min-h-screen flex h-full px-7 pb-14  mx-auto">
           {children}

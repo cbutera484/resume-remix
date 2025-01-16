@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import "../assets/css/nav.css";
 import { Hamburger } from "./hamburger";
 import { useLocation } from "@remix-run/react";
-
+import ThemeToggle from "./themeToggle";
 const LINKS = [
   { name: "Resume", to: "/resume" },
   { name: "Portfolio", to: "/portfolio" },
@@ -65,7 +65,7 @@ export function Nav() {
   }
 
   return (
-    <nav className="flex mx-auto max-w-7xl items-center justify-between mb-4">
+    <nav className="flex mx-auto max-w-7xl items-center justify-between mb-4 ">
       <div className="hamburger-container absolute top-0 right-0 mt-2 mr-2 lg:hidden">
         <Hamburger isOpen={isOpen} onHamburgerClick={handleClick} />
       </div>
@@ -78,13 +78,16 @@ export function Nav() {
       </Link>
       <ul
         ref={menu}
-        className="hidden text-center lg:space-x-4 lg:px-10 lg:flex flex-row opacity-0 lg:opacity-100 lg:mt-2 text-sm xl:text-base"
+        className="hidden text-center lg:space-x-4 lg:px-10 lg:flex flex-row opacity-0 lg:opacity-100 lg:mt-2 text-sm xl:text-base lg:justify-center lg:items-center"
       >
         {LINKS.map((link) => (
           <NavLink key={link.to} to={link.to}>
             {link.name}
           </NavLink>
         ))}
+        <li className="flex justify-center">
+          <ThemeToggle />
+        </li>
       </ul>
     </nav>
   );

@@ -1,0 +1,46 @@
+button.theme-toggle {
+  border-radius: 999px;
+  border: 1px solid var(--text-color);
+  display: flex;
+  align-items: center; /* Ensures proper vertical alignment */
+  justify-content: center; /* Centers items horizontally */
+  gap: 0.5rem; /* Adds space between the icon and text */
+  width: 250px;
+  padding: 1rem;
+}
+
+@media screen(lg) {
+  button.theme-toggle {
+    width: auto;
+  }
+}
+
+button.dark {
+  .theme-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 47.539 47.539'%3E%3Cpath d='M24.997,47.511C11.214,47.511,0,36.298,0,22.515C0,12.969,5.314,4.392,13.869,0.132c0.385-0.191,0.848-0.117,1.151,0.186s0.381,0.766,0.192,1.15C13.651,4.64,12.86,8.05,12.86,11.601c0,12.681,10.316,22.997,22.997,22.997c3.59,0,7.033-0.809,10.236-2.403c0.386-0.191,0.848-0.117,1.151,0.186c0.304,0.303,0.381,0.766,0.192,1.15C43.196,42.153,34.597,47.511,24.997,47.511z M12.248,3.372C5.862,7.608,2,14.709,2,22.515c0,12.68,10.316,22.996,22.997,22.996c7.854,0,14.981-3.898,19.207-10.343c-2.668,0.95-5.464,1.43-8.346,1.43c-13.783,0-24.997-11.214-24.997-24.997C10.861,8.761,11.327,6.005,12.248,3.372z' fill='%23ffffff'/%3E%3C/svg%3E");
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+button.light .theme-icon {
+  background-image: url("../images/nav/theme/light.svg");
+}
+
+button.system .theme-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 463 463'%3E%3Cg%3E%3Cg%3E%3Cg%3E%3Cpath d='M455.5,348H447V99.5c0-17.369-14.131-31.5-31.5-31.5h-368C30.131,68,16,82.131,16,99.5V348H7.5c-4.142,0-7.5,3.358-7.5,7.5v16C0,384.458,10.542,395,23.5,395h416c12.958,0,23.5-10.542,23.5-23.5v-16C463,351.358,459.642,348,455.5,348z M31,99.5C31,90.402,38.402,83,47.5,83h368c9.098,0,16.5,7.402,16.5,16.5V348H31V99.5z M448,371.5c0,4.687-3.813,8.5-8.5,8.5h-416c-4.687,0-8.5-3.813-8.5-8.5V363h169.025c-0.011,0.166-0.025,0.331-0.025,0.5c0,4.142,3.358,7.5,7.5,7.5h80c4.142,0,7.5-3.358,7.5-7.5c0-0.169-0.014-0.334-0.025-0.5H448V371.5z' fill='%23ffffff'/%3E%3Cpath d='M407.5,100h-352c-4.142,0-7.5,3.358-7.5,7.5v216c0,4.142,3.358,7.5,7.5,7.5h352c4.142,0,7.5-3.358,7.5-7.5v-216C415,103.358,411.642,100,407.5,100z M400,316H63V115h337V316z' fill='%23ffffff'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.theme-icon {
+  width: 27px;
+  height: 27px;
+  background-size: cover;
+
+  color: var(--text-color);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  flex-shrink: 0;
+}

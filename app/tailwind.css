@@ -6,19 +6,27 @@
 
 :root {
   --font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  --primary-color-dark: #fff;
-  --primary-color-light: #000;
-  --link-color: rgb(128 151 0);
+  --text-color-light-theme: #1e293b;
+  --text-color-dark-theme: #fff;
+  --bg-color-light-theme: #fff;
+  --bg-color-dark-theme: #1e293b;
+}
+html[data-theme="dark"] {
+  --text-color: var(--text-color-dark-theme);
+  --bg-color: var(--bg-color-dark-theme);
+}
+
+html[data-theme="light"] {
+  --text-color: var(--text-color-light-theme);
+  --bg-color: var(--bg-color-light-theme);
 }
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
   font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--bg-color);
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
   padding: 0;
   margin: 0;
 }
