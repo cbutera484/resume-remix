@@ -6,7 +6,7 @@
     "year": "2013-2024",
     "description": "<p>Led development of highly scalable mobile and desktop gaming websites where millions of users play to win cash and prizes of over $1 Million dollars. Collaborated with marketing, design, back-end and QA teams in an Agile environment to develop a fun, engaging user experience while meeting aggressive deadlines.</p><p>Responsible for recruiting and managing direct reports, conducting detailed code reviews, and promoting best practices across development teams using tools such as ESLint and Prettier. </p><p>Organized and facilitated team training sessions on topics such as JavaScript best practices, W3C accessibility, Git branching strategies, and emerging browser features.</p>",
     "logo": "pch.jpg",
-    "technology": "Javascript, Vue, Svelte, Web Components, Tailwind CSS, Vite, Webpack,  Git, ESLint, Prettier,  PHP, Laravel, W3C Accessibility Standards, SEO",
+    "technology": "Javascript, Vue, Svelte, Web Components (Lit), Storybook, Tailwind CSS, Vite, Webpack,  Git, ESLint, Prettier,  PHP, Laravel, W3C Accessibility Standards, SEO",
     "logoHeight": "320",
     "logoWidth": "320"
   },
