@@ -30,7 +30,7 @@ const ResumeItem: React.FC<ResumeItemProps> = ({
           src={`/images/resume/logos/${logo}`}
           loading="lazy"
           alt={`${title} logo`}
-          className={`opacity-0 resume-item-logo w-1/3 lg:w-80 lg:max-h-80 mx-auto rounded-3xl aspect-[${logoWidth}/${logoHeight}]`}
+          className={`opacity-0 resume-item-logo w-1/2 lg:w-80 lg:max-h-80 mx-auto rounded-3xl aspect-[${logoWidth}/${logoHeight}]`}
           onLoad={(e) => {
             e.currentTarget.classList.add("scale-down-fade-in");
           }}
