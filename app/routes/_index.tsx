@@ -50,14 +50,14 @@ export default function Index() {
         award winning websites.
       </p>
 
-      <h3 className="mt-12">My current toolset includes:</h3>
+      {/* <h3 className="mt-12">My current toolset includes:</h3>
       <ul className="list-disc ml-8 pl-4 text-base md:text-xl">
         {TOOLSET.map((tool) => (
           <li className="mt-4" key={tool}>
             {tool}
           </li>
         ))}
-      </ul>
+      </ul> */}
       <p className="mt-12">
         This site was built on{" "}
         <a rel="noopener noreferrer" target="blank" href="https://remix.run/">
