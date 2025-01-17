@@ -19,7 +19,7 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
   url,
   git,
 }) => (
-  <div className="portfolio-item place-content-center mt-14 w-full mx-auto lg:flex gap-24 mb-16 lg:mb-28">
+  <div className="portfolio-item place-content-center lg:mt-14 w-full mx-auto lg:flex gap-16 mb-8  lg:mb-28">
     <div className="portfolio-item-image flex items-center md:w-3/4 lg:w-6/12 text-center mx-auto">
       <a
         href={url}
@@ -38,7 +38,7 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
       </a>
     </div>
     <div className="portfolio-item-content flex flex-col place-content-center mt-2 lg:mt-0 lg:w-6/12">
-      <h2 className="mt-0">{title}</h2>
+      <h2 className="mt-4 lg:mt-0">{title}</h2>
       <p>{description}</p>
       <p>
         <strong>Platforms:</strong> {platforms}
