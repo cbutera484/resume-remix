@@ -5,7 +5,7 @@ import { Hamburger } from "./hamburger";
 import { useLocation } from "@remix-run/react";
 import ThemeToggle from "./themeToggle";
 const LINKS = [
-  { name: "Home", to: "/home" },
+  { name: "Home", to: "/" },
   { name: "About", to: "/about" },
   { name: "Resume", to: "/resume" },
   { name: "Portfolio", to: "/portfolio" },
