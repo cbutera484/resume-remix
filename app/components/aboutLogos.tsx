@@ -5,10 +5,13 @@ import gr from "../assets/images/about/gr.svg";
 import mets from "../assets/images/about/mets.png";
 import giants from "../assets/images/about/giants.svg";
 import islanders from "../assets/images/about/islanders.png";
+import bethpage from "../assets/images/about/bethpage2.png";
 
 const logos = [
   { src: marathon, alt: "Marathon logo", aspect: "[753/756]" },
   { src: binghamton, alt: "Binghamton logo", aspect: "square" },
+  { src: bethpage, alt: "Bethpage Black logo", aspect: "[490/182]" },
+
   { src: mets, alt: "Mets logo", aspect: "square" },
   { src: giants, alt: "Giants logo", aspect: "[193/150]" },
   { src: islanders, alt: "Islanders logo", aspect: "square" },

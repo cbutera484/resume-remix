@@ -43,7 +43,7 @@ export default function Index() {
           Clearing House, Lowe&apos;s Home Improvement, New York Community Bank,
           McComrick, and Random House Publishing, among others. From initial
           concepts to finished products, I&apos;ve collaborated closely with
-          teams across design,marketing, and QA to deliver high-performance,
+          teams across design, marketing, and QA to deliver high-performance,
           scalable, and successful projects—all with meticulous attention to
           detail.
         </p>
