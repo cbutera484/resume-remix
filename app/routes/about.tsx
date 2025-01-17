@@ -31,7 +31,7 @@ export default function Index() {
           After high school, I pursued a degree in Computer Science at
           Binghamton University, where I honed my skills in programming
           languages such as C#, C++, Java, and Assembly, and studied topics
-          including operating systems, algorithms, cybersecurity, and
+          including operating systems, algorithms, cyber security, and
           networking.
         </p>
 
