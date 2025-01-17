@@ -14,7 +14,7 @@ const logos = [
 
   { src: mets, alt: "Mets logo", aspect: "square" },
   { src: giants, alt: "Giants logo", aspect: "[193/150]" },
-  { src: islanders, alt: "Islanders logo", aspect: "square" },
+
   { src: gr, alt: "GR logo", aspect: "[143/73]" },
 ];
 
