@@ -45,7 +45,7 @@ export default function Index() {
         <TechLogos />
       </div>
       <p>
-        Full Stack Engineer specializing in front-end technologies based in New
+        Full-Stack Engineer specializing in front-end technologies based in New
         York with 20 years professional experience building highly scalable,
         award winning websites.
       </p>
