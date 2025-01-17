@@ -58,6 +58,9 @@ export default function Index() {
           </li>
         ))}
       </ul> */}
+      <div className="block md:hidden mt-16">
+        <TechLogos />
+      </div>
       <p className="mt-12">
         This site was built on{" "}
         <a rel="noopener noreferrer" target="blank" href="https://remix.run/">
@@ -72,9 +75,6 @@ export default function Index() {
           GitHub.
         </a>
       </p>
-      <div className="block md:hidden mt-16">
-        <TechLogos />
-      </div>
     </div>
   );
 }
