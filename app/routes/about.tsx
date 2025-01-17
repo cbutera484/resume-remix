@@ -13,7 +13,9 @@ export default function Index() {
   return (
     <div className="max-w-6xl mx-auto text-xl">
       <h1>About Me</h1>
+
       <AboutLogos />
+
       <section className="mt-16">
         <p>
           Hi, I&apos;m Chris! A full-stack developer, car enthusiast, and NYC
@@ -38,11 +40,12 @@ export default function Index() {
         <p>
           Throughout my career, I&apos;ve had the privilege of designing,
           developing, and leading projects for notable companies like Publishers
-          Clearing House, Lowe&apos;s, and Random House Publishing, among
-          others. From initial concepts to finished products, I&apos;ve
-          collaborated closely with teams across marketing, design, and QA to
-          deliver high-performance, scalable, and successful projects—all with
-          meticulous attention to detail.
+          Clearing House, Lowe&apos;s Home Improvement, New York Community Bank,
+          McComorick, and Random House Publishing, among others. From initial
+          concepts to finished products, I&apos;ve collaborated closely with
+          teams across design,marketing, and QA to deliver high-performance,
+          scalable, and successful projects—all with meticulous attention to
+          detail.
         </p>
         <p>
           When I&apos;m not coding, you&apos;ll likely find me running, playing
