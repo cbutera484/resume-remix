@@ -7,8 +7,8 @@
 :root {
   --font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   --text-color-light-theme: #1e293b;
-  --text-color-dark-theme: #fff;
-  --bg-color-light-theme: #fff;
+  --text-color-dark-theme: #fff8e1;
+  --bg-color-light-theme: #fff8e1;
   --bg-color-dark-theme: #1e293b;
 }
 html[data-theme="dark"] {
