@@ -39,6 +39,15 @@ ul {
 ul li {
   padding: 0 1rem;
 }
+
+ul li:first-of-type {
+  display: block;
+}
+@media screen(lg) {
+  ul li:first-of-type {
+    display: none;
+  }
+}
 ul li a {
   font-size: 1.25rem;
 }
