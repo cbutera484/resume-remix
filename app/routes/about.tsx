@@ -41,7 +41,7 @@ export default function Index() {
           Throughout my career, I&apos;ve had the privilege of designing,
           developing, and leading projects for notable companies like Publishers
           Clearing House, Lowe&apos;s Home Improvement, New York Community Bank,
-          McComrick, and Random House Publishing, among others. From initial
+          McCormick, and Random House Publishing, among others. From initial
           concepts to finished products, I&apos;ve collaborated closely with
           teams across design, marketing, and QA to deliver high-performance,
           scalable, and successful projects—all with meticulous attention to
