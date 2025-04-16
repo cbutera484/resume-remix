@@ -87,7 +87,7 @@ export function Nav() {
             {link.name}
           </NavLink>
         ))}
-        <li className="flex justify-center">
+        <li className="flex justify-center py-8">
           <ThemeToggle />
         </li>
       </ul>
