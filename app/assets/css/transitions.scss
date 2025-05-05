@@ -1,32 +1,33 @@
 @keyframes scaleDownFadeIn {
-    0% {
-        opacity: 0;
-        transform: scale(1.2);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
+  0% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes scaleUpFadeIn {
-    0% {
-        opacity: 0;
-        transform: scale(0.8);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .scale-up-fade-in {
-    animation: scaleUpFadeIn 0.5s ease-in-out forwards;
-
+  animation: scaleUpFadeIn 0.5s ease-in-out forwards;
 }
 
 .scale-down-fade-in {
-    animation: scaleDownFadeIn 0.5s ease-in-out forwards;
+  animation: scaleDownFadeIn 0.5s ease-in-out forwards;
+}
 
-
+.tech-logos.animate-gallery img {
+  animation: scaleUpFadeIn 0.5s ease-in-out forwards;
 }

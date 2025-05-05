@@ -80,7 +80,7 @@ export function Nav() {
       </Link>
       <ul
         ref={menu}
-        className="hidden text-center lg:space-x-4 lg:px-10 lg:flex flex-row opacity-0 lg:opacity-100 lg:mt-2 text-sm xl:text-base lg:justify-center lg:items-center"
+        className="hidden text-center lg:space-x-4 lg:px-10 lg:flex flex-row opacity-0  lg:opacity-100 lg:mt-2 text-sm xl:text-base lg:justify-center lg:items-center"
       >
         {LINKS.map((link) => (
           <NavLink key={link.to} to={link.to}>
